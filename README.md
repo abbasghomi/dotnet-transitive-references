@@ -1,4 +1,9 @@
-# .Net Transitive References
+# .Net Transitive Dependencies
+
+*(Transitive references)*
+
+
+
 A sample solution to demonstrate how neat can be our projects in referencing, if we use .Net core 1.1 or higher.
 
 This is possible in lower versions with adding a proper tag to csproj files
@@ -11,7 +16,7 @@ One of amazing feature introduced in .Net core 1.1 is that you can have transiti
 
 We have a solution with this structure
 
-![Architecture view](https://github.com/abbasghomi/CSharpStandardLibraryAmusements/blob/1e8a4145d30c736fccdb3e65efeef46fa4e93120/docs/Architecture%20view%20for%20CSharpStandardLibraryAmusements.png)
+![Architecture view](https://github.com/abbasghomi/dotnet-transitive-references/blob/20e7b45288e62750a7527d1467c9a75c7742ee4a/docs/Architecture%20view%20for%20CSharpStandardLibraryAmusements.png)
 
 
 
@@ -19,7 +24,7 @@ and now you can use LibraryFive functionalities in the ConsoleApp by just adding
 
 
 
-![solution_overview](https://github.com/abbasghomi/CSharpStandardLibraryAmusements/blob/1e8a4145d30c736fccdb3e65efeef46fa4e93120/docs/solution_overview.png)
+![solution_overview](https://github.com/abbasghomi/dotnet-transitive-references/blob/5d0919bf65fb20a48e2bf1e5bec82c54243bf5cf/docs/solution_overview.png)
 
 
 
@@ -58,3 +63,4 @@ to this
 ```
 
 And now We have access to LibraryFive project only in LibraryFour project not in any other high level libraries that are referencing LibraryFour.
+
